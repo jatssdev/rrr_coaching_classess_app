@@ -112,3 +112,157 @@ All APIs are hosted at: **`rrr.jatssdev.com/api/`**
 
 - **PDFs & Icons:**\
   `rrr.jatssdev.com/geeta/{pdf_or_icon_name}`
+
+---
+---
+---
+
+## **Task 3: Scientist Section**
+
+### **Dashboard Option:**
+6. **Great Scientists**
+
+---
+
+### **Functionality Flow:**
+1. **Scientist Option:**
+   - When the user clicks on the **Great Scientists** option, it will fetch and display all content using the following API:
+     - **API:** `https://rrr.jatssdev.com/api/scientist/all`
+   - Each fetched item includes an icon and a PDF URL.
+
+2. **View Option:**
+   - The **View** option will open a PDF viewer to display the corresponding Scientist PDF.
+
+---
+
+### **Backend API:**
+| **API Endpoint** | **Description**            | **Usage**                                        |
+| ---------------- | -------------------------- | ------------------------------------------------ |
+| `/scientist/all` | Fetches Scientist content. | Displays Scientist items with a PDF view option. |
+
+---
+
+### **File URLs:**
+#### **Scientist File Paths:**
+- **PDFs & Icons:**  
+  `rrr.jatssdev.com/scientist/{pdf_or_icon_name}`
+
+---
+---
+---
+
+## **Task 4: Jivan Vikash Pothi Section**
+
+### **Dashboard Option:**
+7. **Jivan Vikash Pothi**
+
+---
+
+### **Functionality Flow:**
+1. **Jivan Vikash Pothi Option:**
+   - When the user clicks on the **Jivan Vikash Pothi** option, it will fetch and display all content using the following API:
+     - **API:** `https://rrr.jatssdev.com/api/jiv-vikash-pothi/all`
+   - Each fetched item includes an icon and a PDF URL.
+
+2. **View Option:**
+   - The **View** option will open a PDF viewer to display the corresponding **Jivan Vikash Pothi** PDF.
+
+---
+
+### **Backend API:**
+| **API Endpoint**                 | **Description**                 | **Usage**                                        |
+| --------------------------------- | --------------------------------- | ------------------------------------------------ |
+| `/jiv-vikash-pothi/all`           | Fetches Jivan Vikash Pothi content. | Displays items with a PDF view option.          |
+
+---
+
+### **File URLs:**
+#### **Jivan Vikash Pothi File Paths:**
+- **PDFs & Icons:**  
+  `https://rrr.jatssdev.com/jivan_vikash_pothi/{image_name_or_pdf_name}`
+
+---
+---
+---
+
+## **Task 5: General Knowledge Section**
+
+### **Dashboard Option:**
+8. **General Knowledge**
+
+---
+
+### **Functionality Flow:**
+1. **General Knowledge Option:**
+   - When the user clicks on the **General Knowledge** option, it will fetch and display all content using the following API:
+     - **API:** `https://rrr.jatssdev.com/api/general-knowledge/all`
+   - Each fetched item includes an icon and a PDF URL.
+
+2. **View Option:**
+   - The **View** option will open a PDF viewer to display the corresponding **General Knowledge** PDF.
+
+---
+
+### **Backend API:**
+| **API Endpoint**                 | **Description**                    | **Usage**                                        |
+| --------------------------------- | ------------------------------------ | ------------------------------------------------ |
+| `/general-knowledge/all`         | Fetches General Knowledge content.  | Displays items with a PDF view option.           |
+
+---
+
+### **File URLs:**
+#### **General Knowledge File Paths:**
+- **PDFs & Icons:**  
+  `https://rrr.jatssdev.com/gk/{image_name_or_pdf_name}`
+
+---
+---
+---
+## **Task 6: Slider Banners on Home Page**
+
+### **Feature:**
+
+Display a **Swiper Slider** on the home page to show promotional or informational banners.
+
+---
+
+### **Functionality Flow:**
+
+1. **Slider Banners:**
+
+   - On the first page, a **swiper slider** will display banners fetched from the backend.
+   - Each banner will have an image that can be swiped horizontally.
+   - Images will be loaded dynamically from the API response.
+
+2. **API Integration:**
+
+   - The application should fetch banner data using the following API:
+     - **API:** `https://rrr.jatssdev.com/api/banner/all`
+   - Each banner item will include the image URL.
+
+3. **Slider Implementation:**
+
+   - Use the **Swiper** library (or a similar slider package) to implement a smooth, responsive slider.
+   - The slider should have the following features:
+     - Autoplay
+     - Pagination indicators (dots) showing the current slide.
+     - Manual swipe capability.
+     - Lazy loading of images for performance optimization.
+
+---
+
+### **Backend API:**
+
+| **API Endpoint** | **Description**        | **Usage**                           |
+| ---------------- | ---------------------- | ----------------------------------- |
+| `/banner/all`    | Fetches banner images. | Displays images in the home slider. |
+
+---
+
+### **File URLs:**
+
+#### **Banner File Paths:**
+
+- **Images:**\
+  `https://rrr.jatssdev.com/banners/{image_name}`
+
