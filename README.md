@@ -2,12 +2,6 @@
 
 ---
 
-### **Project Overview:**
-
-This application is built in **Gujarati** (explanations are provided in **English**). Users can navigate through various educational standards and access books, chapters, YouTube videos, and Swadhyay materials.
-
----
-
 ### **Dashboard Options:**
 
 The main dashboard displays the following options:
@@ -68,5 +62,6 @@ All APIs are hosted at: **`rrr.jatssdev.com/api/`**
 - **Books & Chapters (Images/PDFs):**\
   `rrr.jatssdev.com/uploads/{image_or_pdf_name}`
 
-  ```
-
+---
+--- 
+--- 
